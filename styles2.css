@@ -64,31 +64,32 @@
     justify-content: space-between;
   }
   
-  .card {
-    border: solid black 2px;
-    height: 25%;
-    padding: 15px;
+  .card1 {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .card2 {
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  .card3 {
+    display: flex;
+    justify-content: flex-start;
+
   }
   
-.box1 {
+.box {
     background-color: black;
-    height: 65px;
-    width: 65px;
+    height: 100px;
+    width: 100px;
     color: white;
+    margin: 15px;
 }
 
-.box2 {
-    background-color: black;
-    height: 65px;
-    width: 65px;
-    color: white;
-}
-.box3 {
-    background-color: black;
-    height: 65px;
-    width: 65px;
-    color: white;
-}
   #right-panel {
     width: 27.5%;
     padding: 15px;
